@@ -2,7 +2,7 @@ import requests
 import pandas as pd
 from datetime import datetime, timedelta
 
-API_URL = "https://api-inference.huggingface.co/models/meta-llama/Meta-Llama-3-8B-Instruct"
+API_URL = "your_api_token"
 headers = {"Authorization": "Bearer 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"}
 
 # Function to query the Hugging Face API
