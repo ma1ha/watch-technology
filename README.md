@@ -17,21 +17,6 @@ This project uses tokens for accessing certain services, including Hugging Face 
 
 1. **Create a Token**: If you don’t already have a token, you’ll need to create one through the service's website. For example, you can create a Hugging Face token by signing up on [Hugging Face](https://huggingface.co/) and generating a token in your account settings.
 
-2. **Configure Your Environment**:
-   - Store your token in an environment variable. For example, you can add the following to your `.env` file (make sure to add `.env` to your `.gitignore`):
-     ```
-     HUGGINGFACE_TOKEN=your_huggingface_token_here
-     ```
-   - Alternatively, you can export the token directly in your terminal session:
-     ```bash
-     export HUGGINGFACE_TOKEN=your_huggingface_token_here
-     ```
-
-
-
-## Automation
-
-To see the project in action, watch the demonstration video on YouTube: [Watch Technology Automation](https://www.youtube.com/watch?v=example)
 
 ## Installation
 
@@ -87,10 +72,6 @@ To see the project in action, watch the demonstration video on YouTube: [Watch T
     python llama.py
     python bulletin.py
     ```
-
-
-
-
 
 
 
