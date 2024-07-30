@@ -27,10 +27,6 @@ This project uses tokens for accessing certain services, including Hugging Face 
      export HUGGINGFACE_TOKEN=your_huggingface_token_here
      ```
 
-3. **Accessing the Token in Your Code**: Modify your code to read the token from the environment variable. For example, in Python, you can use:
-   ```python
-   import os
-   token = os.getenv("HUGGINGFACE_TOKEN")
 
 
 ## Automation
@@ -89,7 +85,9 @@ To see the project in action, watch the demonstration video on YouTube: [Watch T
 
     ```bash
     python llama.py
+    python bulletin.py
     ```
+
 
 
 
@@ -98,7 +96,7 @@ To see the project in action, watch the demonstration video on YouTube: [Watch T
 
 ## Automation
 
-To automate the script, you can follow the instructions in this [YouTube video](https://www.youtube.com/watch?v=4n2fC97MNac).
+To automate the script, you can follow the instructions in this [YouTube video](https://www.youtube.com/watch?v=4n2fC97MNac&t=6s).
 
 ## License
 
